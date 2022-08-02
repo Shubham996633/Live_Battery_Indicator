@@ -26,6 +26,14 @@
                                             hsl(92, 89%, 46%) 15%,
                                             hsl(92,90%,68%) 100%);
 
+    --gradient-color-full:linear-gradient(90deg,
+                                            hsl(59, 95%, 57%) 15%,
+                                            rgb(221, 184, 16) 100%);
+
+    --gradient-color-full:linear-gradient(90deg,
+                                            hsl(184, 94%, 51%) 15%,
+                                            rgb(131, 231, 73) 100%);
+
     --text-color:#fff;
     --body-color:hsla(0,8%,7%,1);
     --container-color:hsl(0,0%,9%);
@@ -71,7 +79,7 @@ body{
     font-family: var(--body-font);
     font-size: var(--smallest-font-size);
     
-    margin-left: 85% ;
+    margin-left: 88% ;
     color: #eee;
     margin-top: 9%;
 }
@@ -174,10 +182,23 @@ body{
     background: var(--gradient-color-green);
     animation: animated-chargin-battery 1.2s infinite alternate;
 
+
+
+}
+
+
+.animated-full{
+    background: var(--gradient-color-full);
+    animation: animated-chargin-battery .6s infinite alternate;
+}
+
+.animated-battery{
+    background: var(--gradient-color-battery);
+    animation: animated-chargin-battery 1.2s infinite alternate;
 }
 .animated-red{
     background: var(--gradient-color-red);
-    animation: animated-low-battery 1.2s infinite alternate;
+    animation: animated-low-battery .3s infinite alternate;
 
 }
 .animated-green,

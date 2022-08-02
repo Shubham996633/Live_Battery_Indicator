@@ -15,7 +15,7 @@ function initBattery() {
             batteryLiquid.style.height = `${parseInt(batt.level * 100)}%`
             
             if(level==100){
-                batteryStatus.innerHTML=`Full Battery <i class="ri-battery-2-fill green-color"></i>`
+                batteryStatus.innerHTML=`Fully Charged <i class="ri-battery-charge-fill green-color animated-full"></i>`
                 batteryLiquid.style.height='103%'
             }
             else if(level <=20 &! batt.charging){
@@ -26,8 +26,9 @@ function initBattery() {
                 batteryStatus.innerHTML=`Charging... <i class="ri-flashlight-line animated-green">`
 
             }
+            
             else{
-                batteryStatus.innerHTML='...'
+                batteryStatus.innerHTML=`On Battery <i class="ri-battery-low-fill animated-battery" ></i>`
             }
 
             if(level <=20){
