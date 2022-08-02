@@ -32,6 +32,7 @@
 
     --gradient-color-battery:linear-gradient(90deg,
                                             hsl(184, 89%, 28%) 15%,
+                                            hsl(44, 80%, 56%) 15%,
                                             rgb(94, 177, 46) 100%);
 
     --text-color:#fff;
@@ -160,6 +161,7 @@ body{
     box-shadow:inset -10px 0 12px hsla(0,0%,0%,.1),
                 inset 12px 0 12px hsla(0,0%,0%,.15);
     transition: .3s;
+    
 
 }
 
@@ -174,6 +176,7 @@ body{
     margin: 0 auto;
     top:-4px;
     border-radius: 50%;
+    
 }
 
 .green-color{
