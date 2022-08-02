@@ -30,7 +30,7 @@
                                             hsl(59, 95%, 57%) 15%,
                                             rgb(221, 184, 16) 100%);
 
-    --gradient-color-full:linear-gradient(90deg,
+    --gradient-color-battery:linear-gradient(90deg,
                                             hsl(184, 94%, 51%) 15%,
                                             rgb(131, 231, 73) 100%);
 
