@@ -5,4 +5,6 @@ This a HTML , CSS And JavaScript Project that fetch you Real-time Battery status
 
 
 
-To  Visit Click Here : 
+To  Visit Click Here : https://shubham996633.github.io/Live_Battery_Indicator/
+
+If Not Working properly on first load refresh the page. :) :) :)
